@@ -8,7 +8,7 @@
 
 /* Fundo da tela */
 body {
-  background-color: #2F2F2F; /* fundo escuro do Figma */
+  background-color: #2F2F2F; /* fundo escuro */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,12 +19,12 @@ body {
 .container {
   width: 100%;
   max-width: 400px; /* largura máxima */
-  padding: 0 16px; /* margem interna para não colar na tela */
+  padding: 0 16px; /* margem interna */
 }
 
 /* Caixa de login */
 .login-box {
-  background-color: #1E1E1E; /* tom mais escuro */
+  background-color: #1E1E1E;
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
@@ -65,7 +65,7 @@ form input {
 .btn-primary {
   width: 100%;
   padding: 14px;
-  background-color: #3DB39E; /* cor verde água do botão "Acessar" */
+  background-color: #3DB39E;
   border: none;
   border-radius: 8px;
   color: #fff;
@@ -98,6 +98,10 @@ button.btn-apple {
   font-weight: bold;
   font-size: 1rem;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* espaço entre ícone e texto */
 }
 
 /* Google */
@@ -105,6 +109,9 @@ button.btn-apple {
   background-color: #fff;
   color: #333;
   border: 1px solid #ccc;
+}
+.btn-google i {
+  color: #DB4437; /* vermelho do Google */
 }
 .btn-google:hover {
   background-color: #f2f2f2;
@@ -115,6 +122,9 @@ button.btn-apple {
   background-color: #1877F2;
   color: #fff;
 }
+.btn-facebook i {
+  color: #fff;
+}
 .btn-facebook:hover {
   background-color: #0f5dcf;
 }
@@ -122,6 +132,9 @@ button.btn-apple {
 /* Apple */
 .btn-apple {
   background-color: #000;
+  color: #fff;
+}
+.btn-apple i {
   color: #fff;
 }
 .btn-apple:hover {
