@@ -18,7 +18,8 @@ body {
 /* Container principal */
 .container {
   width: 100%;
-  max-width: 400px;
+  max-width: 400px; /* largura máxima */
+  padding: 0 16px; /* margem interna para não colar na tela */
 }
 
 /* Caixa de login */
@@ -57,12 +58,13 @@ form input {
   outline: none;
   background-color: #333;
   color: #fff;
+  font-size: 1rem;
 }
 
 /* Botão principal */
 .btn-primary {
   width: 100%;
-  padding: 12px;
+  padding: 14px;
   background-color: #3DB39E; /* cor verde água do botão "Acessar" */
   border: none;
   border-radius: 8px;
@@ -70,6 +72,7 @@ form input {
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
+  font-size: 1rem;
   transition: 0.3s;
 }
 .btn-primary:hover {
@@ -87,12 +90,13 @@ button.btn-google,
 button.btn-facebook,
 button.btn-apple {
   width: 100%;
-  padding: 12px;
+  padding: 14px;
   border-radius: 8px;
   margin: 6px 0;
   border: none;
   cursor: pointer;
   font-weight: bold;
+  font-size: 1rem;
   transition: 0.3s;
 }
 
@@ -122,4 +126,30 @@ button.btn-apple {
 }
 .btn-apple:hover {
   background-color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  .login-box {
+    padding: 1.5rem;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  .logo h1 {
+    font-size: 1.2rem;
+  }
+
+  .login-box h2 {
+    font-size: 1.2rem;
+  }
+
+  form input,
+  .btn-primary,
+  button {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
 }
