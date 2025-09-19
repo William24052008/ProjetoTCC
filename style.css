@@ -143,12 +143,15 @@ button.btn-apple {
 
 /* Responsividade */
 @media (max-width: 480px) {
+.container {
+    max-width:100%;
+  }
   .login-box {
     padding: 1.5rem;
   }
 
   .logo img {
-    width: 50px;
+    width: 150px;
   }
 
   .logo h1 {
