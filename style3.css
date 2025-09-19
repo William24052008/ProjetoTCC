@@ -22,7 +22,7 @@ body {
 }
 
 .img-topo{
-    background-color: #fff;
+    max-width:50%;
 }
 
 /* Título */
@@ -33,10 +33,11 @@ h2 {
 
 /* Card principal */
 .card-plano {
-  background-color: #2F2F2F;
-  padding: 1.5rem;
+  background-color: #2F354A;
+  padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
   text-align:center;
   background-repeat: no-repeat;
   background-position: top center;
