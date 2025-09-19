@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,13 @@
   <!-- Font Awesome para ícones -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
   <div class="container">
     <div class="login-box">
 
       <!-- Logo -->
       <div class="logo">
-        <!-- substitua logo.png pelo arquivo real -->
         <img src="imagemprimaria.png" alt="Logo OtimizaI">
         <h1>OTIMIZAI</h1>
       </div>
@@ -23,11 +24,10 @@
       <h2>Entrar</h2>
 
       <!-- Formulário de login -->
-      <form>
-        <input type="email" placeholder="Digite seu email" required>
-        <input type="password" placeholder="Digite sua senha" required>
-        <button type="submit" onlclick="window.location.href='pagdeplano1.html'" class="btn-primary" >Acessar</button>
-
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Digite seu email" required>
+        <input type="password" id="senha" placeholder="Digite sua senha" required>
+        <button type="button" onclick="fazerLogin()" class="btn-primary">Acessar</button>
       </form>
 
       <p class="ou">ou</p>
@@ -46,6 +46,7 @@
       </button>
     </div>
   </div>
+
   <script>
     function fazerLogin() {
       const email = document.getElementById("email").value.trim();
@@ -73,6 +74,6 @@
       });
     });
   </script>
-
 </body>
+
 </html>
