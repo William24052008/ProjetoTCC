@@ -27,7 +27,7 @@ body {
   border-radius: 10px;
   margin: 10px 0;
   text-align: left;
-  width: 100%;
+  width:75%;
 
 }
 .plano h3 {
@@ -65,7 +65,7 @@ body {
 }
 
 .btn-voltar {
-  width: 100%;
+  width: 75%;
   padding: 14px;
   background-color: #3DB39E;
   border: none;

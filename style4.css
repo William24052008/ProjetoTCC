@@ -1,4 +1,3 @@
-/* Estilo geral */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -10,7 +9,6 @@ body {
   min-height: 100vh;
 }
 
-/* Card central */
 .container {
   display: flex;
   justify-content: center;
@@ -26,7 +24,7 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-/* Imagem */
+
 .card-image {
   width: 100%;
   max-height: 180px;
@@ -34,13 +32,11 @@ body {
   margin-bottom: 15px;
 }
 
-/* Título */
 .card h2 {
   margin: 10px 0;
   font-size: 22px;
 }
 
-/* Preço */
 .preco {
   font-size: 20px;
   font-weight: bold;
@@ -52,7 +48,6 @@ body {
   font-weight: normal;
 }
 
-/* Botão principal */
 .btn-primary {
   background: #2ac293;
   border: none;
@@ -69,14 +64,12 @@ body {
   background: #25a67c;
 }
 
-/* Texto "ou" */
 .ou {
   margin: 15px 0;
   color: #bbb;
   font-size: 14px;
 }
 
-/* Lista de benefícios */
 .beneficios {
   list-style: none;
   padding: 0;
@@ -98,7 +91,6 @@ body {
   font-weight: bold;
 }
 
-/* Botão voltar */
 .btn-voltar {
   background: none;
   border: none;
