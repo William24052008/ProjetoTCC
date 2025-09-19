@@ -1,0 +1,138 @@
+/* Fundo geral */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1E1E1E;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.span{
+    text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.img-topo{
+    background-color: #fff;
+}
+
+/* Título */
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/* Card principal */
+.card-plano {
+  background-color: #2F2F2F;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+  text-align:center;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 120px; /* tamanho da ilustração */
+}
+
+/* Header do plano */
+.plano-header {
+  background-color: #3B3B3B;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;  /* centraliza o texto + ícone */
+  align-items: center;
+  gap: 8px; /* dá um espacinho entre o texto e a setinha */
+}
+
+/* Preço */
+.preco p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+/* Botão principal */
+.btn-principal {
+  width: 100%;
+  padding: 12px;
+  background-color: #3DB39E;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: 0.3s;
+}
+.btn-principal:hover {
+  background-color: #2a8374;
+}
+
+/* Texto do "ou" */
+.ou {
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Benefícios */
+.beneficios {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  text-align: left;
+}
+.beneficios li {
+  margin: 10px 0;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.beneficios i {
+  color: #3DB39E;
+}
+
+/* Botão voltar (ícone redondo) */
+.btn-voltar {
+  margin-top: 20px;
+  background: #2F2F2F;
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+.btn-voltar:hover {
+  background-color: #444;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  .btn-principal {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .beneficios li {
+    font-size: 0.85rem;
+  }
+}
