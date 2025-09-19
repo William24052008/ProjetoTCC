@@ -1,4 +1,3 @@
-/* Fundo geral */
 body {
   margin: 0;
   padding: 0;
@@ -25,13 +24,11 @@ body {
     max-width:50%;
 }
 
-/* Título */
 h2 {
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
 
-/* Card principal */
 .card-plano {
   background-color: #2F354A;
   padding: 2rem;
@@ -41,10 +38,9 @@ h2 {
   text-align:center;
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 120px; /* tamanho da ilustração */
+  background-size: 120px;
 }
 
-/* Header do plano */
 .plano-header {
   background-color: #3B3B3B;
   padding: 10px;
@@ -52,18 +48,16 @@ h2 {
   margin-bottom: 15px;
   font-weight: bold;
   display: flex;
-  justify-content: center;  /* centraliza o texto + ícone */
+  justify-content: center; 
   align-items: center;
-  gap: 8px; /* dá um espacinho entre o texto e a setinha */
+  gap: 8px; 
 }
 
-/* Preço */
 .preco p {
   font-size: 1.1rem;
   margin: 10px 0;
 }
 
-/* Botão principal */
 .btn-principal {
   width: 100%;
   padding: 12px;
@@ -81,14 +75,12 @@ h2 {
   background-color: #2a8374;
 }
 
-/* Texto do "ou" */
 .ou {
   margin: 10px 0;
   font-size: 0.9rem;
   color: #aaa;
 }
 
-/* Benefícios */
 .beneficios {
   list-style: none;
   padding: 0;
@@ -106,7 +98,6 @@ h2 {
   color: #3DB39E;
 }
 
-/* Botão voltar (ícone redondo) */
 .btn-voltar {
   margin-top: 20px;
   background: #2F2F2F;
@@ -122,7 +113,6 @@ h2 {
   background-color: #444;
 }
 
-/* Responsividade */
 @media (max-width: 480px) {
   h2 {
     font-size: 1.1rem;

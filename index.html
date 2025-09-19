@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tela de Login</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome para ícones -->
+ 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
@@ -14,16 +14,15 @@
   <div class="container">
     <div class="login-box">
 
-      <!-- Logo -->
       <div class="logo">
         <img src="imagemprimaria.png" alt="Logo OtimizaI">
         <h1>OTIMIZAI</h1>
       </div>
 
-      <!-- Título -->
+     
       <h2>Entrar</h2>
 
-      <!-- Formulário de login -->
+
       <form id="loginForm">
         <input type="email" id="email" placeholder="Digite seu email" required>
         <input type="password" id="senha" placeholder="Digite sua senha" required>
@@ -32,7 +31,6 @@
 
       <p class="ou">ou</p>
 
-      <!-- Botões de login social -->
       <button type="button" class="btn-google">
         <i class="fab fa-google"></i> Fazer login com o Google
       </button>
@@ -53,15 +51,15 @@
       const senha = document.getElementById("senha").value.trim();
 
       if (email && senha) {
-        // Tudo preenchido: redireciona
+
         window.location.href = "pagdeplano1.html";
       } else {
-        // Campos vazios: mostra alerta
+     
         alert("Por favor, preencha todos os campos.");
       }
     }
 
-    // Adiciona a cor de fundo quando os campos são preenchidos
+   
     const inputs = document.querySelectorAll('#loginForm input');
 
     inputs.forEach(input => {
