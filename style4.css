@@ -1,0 +1,109 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card central */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #2d2f55;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Imagem */
+.card-image {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* Título */
+.card h2 {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+/* Preço */
+.preco {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.preco span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Botão principal */
+.btn-primary {
+  background: #2ac293;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.btn-primary:hover {
+  background: #25a67c;
+}
+
+/* Texto "ou" */
+.ou {
+  margin: 15px 0;
+  color: #bbb;
+  font-size: 14px;
+}
+
+/* Lista de benefícios */
+.beneficios {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.beneficios li {
+  margin: 10px 0;
+  position: relative;
+  padding-left: 25px;
+}
+
+.beneficios li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #2ac293;
+  font-weight: bold;
+}
+
+/* Botão voltar */
+.btn-voltar {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 15px;
+  cursor: pointer;
+}
