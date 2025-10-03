@@ -1,0 +1,84 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.pix-logo img {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.info {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.qrcode img {
+  width: 220px;
+  margin: 20px 0;
+}
+
+.info-menor {
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.pix-codigo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f1f1;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.pix-codigo input {
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 0.9rem;
+  padding: 8px;
+  outline: none;
+}
+
+.copiar {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.copiar:hover {
+  background: #1d4ed8;
+}
