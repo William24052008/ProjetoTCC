@@ -82,6 +82,9 @@ h2 {
   font-size: 0.9rem;
   color: #aaa;
 }
+.ou:hover{
+ text-decoration: underline;
+}
 
 .beneficios {
   list-style: none;

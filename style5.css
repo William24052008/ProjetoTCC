@@ -7,13 +7,16 @@
 }
 
 body {
-  background-color: #1e2537;
-  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1E1E1E;
+  color: #fff;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 100vh;
-  padding: 20px;
+  font-size: large
 }
 
 .container {
@@ -32,7 +35,7 @@ h2 {
 }
 
 .img-topo img {
-  width: 60px;
+  width: 300px;
   margin: 10px 0 20px;
 }
 
